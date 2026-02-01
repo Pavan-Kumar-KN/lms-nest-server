@@ -16,6 +16,7 @@ export class UserService {
 
       return await this.userModel.create({
         email: userData.email,
+        role: userData.role,
         password: hashPassword,
         createdAt: new Date(),
       });
