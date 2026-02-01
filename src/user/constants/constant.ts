@@ -1,0 +1,7 @@
+const SALT_ROUND = 10;
+
+const ERROR_CODE = {
+  DUPLICATE_KEY_CODE: 11000,
+};
+
+export { SALT_ROUND, ERROR_CODE };
